@@ -1,0 +1,56 @@
+body{
+    background-color:rgb(219, 219, 219);
+    height: 100%;
+    margin: 0;
+}
+
+.main-div{
+    display: flex;
+    height: 100vh;
+    box-sizing: border-box;
+    justify-content:center;
+    align-items: center;
+    /* border: rgb(194, 13, 13) 2px solid; */
+   
+}
+
+.form-div{
+    background-color: rgba(255, 255, 255, 0.89);
+    padding: 1vh;
+    border-radius: 12px;
+    border: rgba(128, 128, 128, 0.295) 3px groove;
+    padding: 2em 0;
+}
+
+.main-div .input-title{
+    text-align: center;
+    font-size: 35px;
+}
+
+.main-div form div{
+    margin: 1vh;
+    padding: 2px;
+}
+
+.row .btn{
+    margin:15px 0 0 0;
+}
+.row .error_code{
+    font-size: 12px;
+    margin-bottom: 0;
+    color: red;
+}
+#signup-btn-div{
+    padding: 1em;
+    margin:10px 0 0 0;
+}
+
+#signup{
+    color: black;
+    font-weight: bold;
+}
+
+/* signup.php 추가 */
+#sign-btn-div{
+    margin: 3vh 1vh;
+}

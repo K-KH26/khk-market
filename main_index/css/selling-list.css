@@ -1,0 +1,7 @@
+.selling-item-list{
+    cursor: pointer;
+}
+
+.selling-item-list:hover{
+    background-color: dimgray;
+}
